@@ -1,5 +1,62 @@
 # 漏洞收集
-收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了600多个poc/exp，善用CTRL+F搜索
+收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了700多个poc/exp，善用CTRL+F搜索
+
+## 2024.07.06 新增漏洞
+
+- 宏景eHR人力资源管理系统接口getSdutyTree存在SQL注入漏洞
+- 宏景eHR人力资源管理系统接口loadtree存在SQL注入漏洞
+- 宏景eHR人力资源管理系统接口LoadOtherTreeServlet存在SQL注入漏洞
+- 宏景eHR人力资源管理系统接口DownLoadCourseware存在任意文件读取漏洞
+- 平升电子水库监管平台GetAllRechargeRecordsBySIMCardId接口处存在SQL注入漏洞
+- Docassemble任意文件读取漏洞(CVE-2024-27292) 
+- WordPress插件Recall存在SQL注入漏洞(CVE-2024-32709)
+- rejetto-HFS-3存在远程命令执行漏洞(CVE-2024-39943)
+- Splunk-Enterprise任意文件读取漏洞
+
+## 2024.07.03 新增漏洞
+
+- 金和OA_C6_UploadFileDownLoadnew存在任意文件读取漏洞
+- 科荣AIO-moffice接口存在SQL注入漏洞
+- 朗新天霁人力资源管理系统GetMessage存在sql注入漏洞
+- 用友u9系统接口GetConnectionString存在信息泄露漏洞
+- YzmCMS接口存在pay_callback远程命令执行
+- 美特CRM系统接口anotherValue存在FastJson反序列化RCE
+- 飞企互联FE企业运营管理平台ajax_codewidget39.jsp接口存在SQL注入漏洞
+- 飞企互联FE企业运营管理平台checkGroupCode.js接口存在SQL注入漏洞
+- 大华ICC智能物联综合管理平台heapdump敏感信息泄露
+- 英飞达医学影像存档与通信系统Upload.asmx任意文件上传漏洞
+- GeoServer属性名表达式前台代码执行漏洞(CVE-2024-36401)
+- D-LINK-Go-RT-AC750 GORTAC750_A1_FW_v101b03存在硬编码漏洞(CVE-2024-22853)
+- 致远OA-A8-V5接口officeservlet存在任意文件读取漏洞
+- JieLink+智能终端操作平台存在sql注入漏洞
+- 金斗云-HKMP智慧商业软件任意用户添加漏洞
+- 热网无线监测系统SystemManager.asmx存在SQL注入漏洞
+- 喰星云-数字化餐饮服务系统listuser信息泄露漏洞
+- 邦永PM2项目管理系统Global_UserLogin.aspx存在SQL注入漏洞
+- 锐明技术Crocus系统Service.do任意文件读取漏洞
+
+## 2024.06.28 新增漏洞
+
+- WordPress插件Dokan-Pro存在SQL注入漏洞
+- 时空智友ERP系统updater.uploadStudioFile接口处存在任意文件上传漏洞
+- Apache-ServiceComb存在SSRF漏洞(CVE-2023-44313)
+- 通天星CMSV6接口pointManage存在SQL注入
+- 用友U8-Cloud-smartweb2.showRPCLoadingTip.d存在XXE漏洞
+- WordPress-MasterStudy-LMS插件存在SQL注入漏洞(CVE-2024-1512)
+- Apache-Kafka的UI中的远程代码执行CVE-2023-52251
+- 碧海威L7产品confirm存在命令执行漏洞
+- 万户-ezOFFICE-OA-officeserver.jsp文件上传漏洞
+- 医药信息管理系统GetLshByTj存在SQL注入
+- MSService服务init.do接口处存在SQL注入漏洞
+- Pear-Admin-Boot存在SQL注入漏洞
+- 福建科立讯通信有限公司指挥调度管理平台uploadgps.php存在SQL注入漏洞
+- Magento开源电子商务平台接口estimate-shipping-methods存在XXE漏洞
+- 铭飞MCMS接口upload.do存在任意文件上传漏洞
+- OpenCart开源电子商务平台divido.php存在SQL注入漏洞
+- D-LINK-DIR-845L接口bsc_sms_inbox.php存在信息泄露漏洞
+- 致远互联FE协作办公平台codeMoreWidget.js存在sql注入漏洞
+- 飞企互联-FE企业运营管理平台efficientCodewidget39接口SQL注入漏洞
+- 金和OA-C6接口DownLoadBgImage存在任意文件读取漏洞
 
 ## 2024.06.21 新增漏洞
 
@@ -698,7 +755,7 @@
 - 用友NC的download文件存在任意文件读取漏洞
 - 泛微e-cology9_SQL注入-CNVD-2023-12632
 - TOTOLINK A3700R命令执行漏洞CVE-2023-46574
-- Splunk Enterprise 远程代码执行漏洞 (CVE-2023-46214)
+- Splunk-Enterprise远程代码执行漏洞(CVE-2023-46214)
 
 ## 2023.11.24 新增漏洞
 - 华为Auth-Http Serve任意文件读取
